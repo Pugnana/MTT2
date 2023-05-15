@@ -47,5 +47,5 @@ for user in users_list:
         extra_books -= 1
 
 with open("result.json", "w")as f:
-    result = json.dumps(users_list, indent=2)
+    result = json.dumps(users_list, indent=3)
     f.write(result)
